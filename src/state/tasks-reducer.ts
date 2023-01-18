@@ -32,7 +32,6 @@ const initialState:TasksStateType = {}
              stateCopy[action.todolistId] = filteredTasks;
              return stateCopy;
         }
-
         case 'ADD-TASK':
             return {
                 ...state,
